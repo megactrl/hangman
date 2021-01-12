@@ -20,7 +20,7 @@ def hangman(word):
         if char in rletters:
             v = rletters.index(char)
             board[v] = char
-            rletters[v]s = '$'
+            rletters[v] = '$'
         else:
             wrong += 1
         print((" ".join(board)))
